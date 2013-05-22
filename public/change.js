@@ -15,7 +15,7 @@ function change (url) {
     .pipe(sock)
 
   sock.on('end', function () {
-    fromServ.emit('disconnect')
+    if (!window.closed) fromServ.emit('disconnect')
   })
 
   fromServ.register = function (page, user) {
