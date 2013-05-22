@@ -1,0 +1,25 @@
+{ "name": "page-change-watcher"
+, "version": "0.0.1"
+, "author": "Nick Niemeir <nick.niemeir@gmail.com>"
+, "bin": "./cli.js"
+, "scripts":
+  { "start": "node cli.js" }
+, "dependencies":
+  { "ecstatic": "*"
+  , "ramrod": "*"
+  , "config-chain": "*"
+  , "optimist": "*"
+  , "flates": "*"
+  , "browserify": "*"
+  , "shoe": "*"
+  , "emit-stream": "*"
+  , "through": "*"
+  , "JSONStream": "*"
+  , "stream-cb": "*"
+  }
+, "engines": { "node": ">0.6" }
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/nrn/page-change-watcher.git"
+  }
+}
