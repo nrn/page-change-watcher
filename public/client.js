@@ -1,4 +1,4 @@
-var change = require('./change')
+//var change = require('./change')
 
 jQuery(function () { 
   var serv = change('/sock')

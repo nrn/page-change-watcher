@@ -2,6 +2,7 @@ var f = require('flates')
 
 var scripts =
   [ '/dep/jquery.min.js'
+  , '/test.js'
   , '/client.js'
   ]
 
